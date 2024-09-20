@@ -1,0 +1,144 @@
+body {
+    background-color: #070A4E;
+    color: #FFFFFF;
+    font-family: "Rubik";
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav, a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 8rem 0 0;
+}
+
+h1{
+    font-weight: 500;
+}
+
+#socials img {
+    display: flex;
+    width: 1.2rem;
+    padding: 1rem;
+    margin: 0 3rem 0 0;
+
+}
+.card {
+    text-align: center;
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+#cardBody {
+    background-color: #252872;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+#cardBody h5 {
+    font-weight: 300;
+    font-size: medium;
+    margin: 0 0 0.5rem 0;
+}
+
+#cardBody p {
+    margin: 0;
+}
+
+#cardFooter p {
+    background-color: #646693;
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+#informacoesNutricionais {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #FFFFFF00;
+    border: 1px solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 2rem;
+    border-style: solid;
+    padding: 1rem 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.button:hover{
+    background-color: #FFFFFF;
+    color:#070A4E;
+}
+
+#imagensPepsi {
+    display: flex;
+    justify-content: baseline;
+    padding: 0 0;
+}
+
+footer {
+    display: flex;
+    align-content: end;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#cardDoFooter .cardBody{
+    background-color: #252872;
+    padding: 1.5rem 1rem ;
+    text-wrap: wrap;
+}
+
+#cardDoFooter .descricao, .descricao1 {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+
+#cardDoFooter .qtd {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
+#cardDoFooter .descricao1 {
+    margin-bottom: 1rem;;
+}
